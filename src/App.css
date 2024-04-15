@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+/* Global styles */
+
+/* Mission section */
+.mission {
+  background-color: #f8f9fa; /* Mission section background color */
+  padding: 50px 0; /* Add padding */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mission-container {
+  max-width: 800px; /* Set maximum width */
+  margin: 0 auto; /* Center horizontally */
+  text-align: center; /* Center text */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mission h2 {
+  color: #007bff; /* Mission title color */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mission p {
+  font-size: 1.2rem; /* Mission text font size */
 }
 
-.App-link {
-  color: #61dafb;
+/* Carousel */
+.carousel {
+  margin-top: 30px; /* Add margin to separate from mission section */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carousel img {
+  border-radius: 5px; /* Add border radius to images */
 }

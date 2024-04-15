@@ -1,0 +1,9 @@
+.carousel {
+    max-width: 50%; /* Take up 50% of the container width */
+  }
+  
+  .carousel img {
+    width: 100%; /* Make images fill the container width */
+    border-radius: 5px; /* Add border radius to images */
+  }
+  

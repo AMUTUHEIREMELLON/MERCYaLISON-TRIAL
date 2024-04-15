@@ -1,0 +1,39 @@
+.footer {
+    background-color: #f8f9fa; /* Footer background color */
+    padding: 30px 0; /* Add some padding */
+  }
+  
+  .footer-card-items {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-card {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .footer-card-header {
+    background-color: #007bff; /* Header background color */
+    color: #ffffff; /* Header text color */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer-card-body {
+    padding: 10px;
+  }
+  
+  .footer-card-body p {
+    margin: 5px 0;
+  }
+  
+  .footer-card-body p a {
+    color: #333333; /* Link color */
+    text-decoration: none;
+  }
+  
+  .footer-card-body p a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  

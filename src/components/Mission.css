@@ -1,0 +1,39 @@
+.mission {
+    background-color: #f8f9fa; /* Mission section background color */
+    padding: 50px 0; /* Add padding */
+  }
+  
+  .mission-container {
+    max-width: 800px; /* Set maximum width */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center text */
+  }
+  
+  .mission h2 {
+    color: #007bff; /* Mission title color */
+  }
+  
+  .mission p {
+    font-size: 1.2rem; /* Mission text font size */
+  }
+  
+  .mission {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Space between mission and carousel */
+    background-color: #f8f9fa; /* Mission section background color */
+    padding: 50px; /* Add padding */
+  }
+  
+  .mission-content {
+    max-width: 50%; /* Take up 50% of the container width */
+  }
+  
+  .mission h2 {
+    color: #007bff; /* Mission title color */
+  }
+  
+  .mission p {
+    font-size: 1.2rem; /* Mission text font size */
+  }
+  
